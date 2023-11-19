@@ -43,7 +43,8 @@ class CarPolicy
         }
     }
     
-        
+   //this is for the discounted premium//
+//It's for yearly premium so the right amount should be subtracted//
     public function getDiscountedPremium()
     {
         $theDiscount = $this->getDiscount();
