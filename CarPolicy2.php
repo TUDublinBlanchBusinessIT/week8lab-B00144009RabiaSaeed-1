@@ -1,6 +1,7 @@
 <?php
 //I submitted this in class but I forgot to commit it//
 //Here is the car policy and it's private attributes//
+//part 1//
 class CarPolicy
 {
     private $policyNumber = 0;
@@ -14,6 +15,7 @@ class CarPolicy
         $this->policyNumber = $policyNumber;
         $this->yearlyPremium = $yearlyPremium;
     }
+    //part 2//
     //policies that don't have a claim between the years three and five get a 10% discount, policies that don't have a claim for more then five years get 15% discount//
     //I only know how to make functions so I'm just gopnna make two functions instead of adding it into one//
     public function setDateOfLastClaim($dateOfLastClaim)
